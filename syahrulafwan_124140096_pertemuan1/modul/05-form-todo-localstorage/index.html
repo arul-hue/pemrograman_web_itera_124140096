@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form, localStorage &amp; Todo List</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1>Form, localStorage &amp; Todo List</h1>
+
+  <!-- Latihan: form tambah mahasiswa dengan validasi dan localStorage -->
+  <div class="kotak">
+    <h2>Tambah Data Mahasiswa</h2>
+
+    <input type="text" id="input-nama" placeholder="Nama (min. 3 karakter)">
+    <p id="error-nama" class="merah"></p>
+
+    <input type="text" id="input-nim" placeholder="NIM (9 angka)">
+    <p id="error-nim" class="merah"></p>
+
+    <input type="number" id="input-nilai" placeholder="Nilai (0-100)">
+    <p id="error-nilai" class="merah"></p>
+
+    <button id="btn-simpan">Simpan</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>NIM</th>
+          <th>Nilai</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody id="isi-mahasiswa"></tbody>
+    </table>
+  </div>
+
+  <!-- Latihan: Todo List -->
+  <div class="kotak">
+    <h2>Todo List</h2>
+    <input type="text" id="input-todo" placeholder="Tulis kegiatan...">
+    <button id="btn-todo">Tambah</button>
+    <p id="error-todo" class="merah"></p>
+    <div id="daftar-todo"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

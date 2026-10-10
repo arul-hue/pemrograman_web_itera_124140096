@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array &amp; Objek</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1>Array &amp; Objek</h1>
+
+  <!-- Demo dari modul -->
+  <h2>Manipulasi Array</h2>
+  <div id="array-demo"></div>
+
+  <h2>Manipulasi Objek</h2>
+  <div id="objek-demo"></div>
+
+  <hr>
+  <h2>Latihan: Data Mahasiswa</h2>
+
+  <!-- Latihan 1: tabel mahasiswa -->
+  <div class="kotak">
+    <h3>Tabel Mahasiswa</h3>
+    <button id="btn-sort-az">Urutkan Nama A-Z</button>
+    <button id="btn-sort-za">Urutkan Nama Z-A</button>
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>NIM</th>
+          <th>Jurusan</th>
+          <th>Nilai</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody id="isi-tabel"></tbody>
+    </table>
+  </div>
+
+  <!-- Latihan 2 dan 3: nilai tertinggi dan di atas rata-rata -->
+  <div class="kotak">
+    <h3>Informasi Nilai</h3>
+    <div id="info-nilai"></div>
+  </div>
+
+  <!-- Latihan 5: CRUD -->
+  <div class="kotak">
+    <h3>Tambah Mahasiswa (Create)</h3>
+    <input type="text" id="input-nama" placeholder="Nama">
+    <input type="text" id="input-nim" placeholder="NIM">
+    <input type="text" id="input-jurusan" placeholder="Jurusan">
+    <input type="number" id="input-nilai" placeholder="Nilai (0-100)">
+    <button id="btn-tambah">Tambah</button>
+    <p id="pesan" class="merah"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 16px;
+  line-height: 1.5;
+  background: #fff;
+  color: #222;
+}
+
+body.gelap {
+  background: #1f2430;
+  color: #eee;
+}
+
+.kotak {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+body.gelap .kotak {
+  border-color: #666;
+}
+
+input,
+select {
+  padding: 6px;
+  margin: 4px 4px 4px 0;
+}
+
+button {
+  padding: 6px 12px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #bbb;
+  padding: 6px;
+  text-align: left;
+}
+
+.merah {
+  color: #c62828;
+}
+
+.hijau {
+  color: #2e7d32;
+}
+
+.item {
+  background: #eee;
+  padding: 6px;
+  margin: 4px 0;
+  border-radius: 4px;
+  color: #222;
+}
+
+.chip {
+  display: inline-block;
+  background: #e3f2fd;
+  color: #222;
+  padding: 2px 8px;
+  margin: 2px;
+  border-radius: 4px;
+}
+
+.selesai {
+  text-decoration: line-through;
+  color: #888;
+}

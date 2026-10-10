@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini POS - Kasir Kantin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mini POS Kasir Kantin</h1>
+    <p>Aplikasi kasir &amp; keranjang belanja sederhana</p>
+  </header>
+
+  <main>
+    <!-- 1. Form input barang -->
+    <section class="kotak">
+      <h2>Input Barang</h2>
+
+      <label for="input-nama">Nama Barang</label>
+      <input type="text" id="input-nama" placeholder="Contoh: Buku Tulis">
+      <p class="pesan-error" id="error-nama"></p>
+
+      <label for="input-harga">Harga Satuan (Rp)</label>
+      <input type="number" id="input-harga" placeholder="Contoh: 5000">
+      <p class="pesan-error" id="error-harga"></p>
+
+      <label for="input-qty">Jumlah / Qty</label>
+      <input type="number" id="input-qty" placeholder="Contoh: 2">
+      <p class="pesan-error" id="error-qty"></p>
+
+      <button id="btn-tambah" class="btn-utama">Tambah ke Keranjang</button>
+    </section>
+
+    <!-- 2. Tabel keranjang belanja -->
+    <section class="kotak">
+      <h2>Keranjang Belanja</h2>
+      <div class="tabel-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Nama Barang</th>
+              <th>Harga Satuan</th>
+              <th>Qty</th>
+              <th>Subtotal</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody id="isi-keranjang"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 3. Total, diskon, pembayaran -->
+    <section class="kotak">
+      <h2>Pembayaran</h2>
+
+      <div class="baris">
+        <span>Total Belanja</span>
+        <strong id="total-belanja">Rp 0</strong>
+      </div>
+      <div class="baris">
+        <span>Diskon 10%</span>
+        <strong id="nominal-diskon">Rp 0</strong>
+      </div>
+      <p class="keterangan" id="info-diskon"></p>
+      <div class="baris total-akhir">
+        <span>Total Akhir</span>
+        <strong id="total-akhir">Rp 0</strong>
+      </div>
+
+      <label for="input-bayar">Uang Bayar (Rp)</label>
+      <input type="number" id="input-bayar" placeholder="Contoh: 100000">
+      <p class="keterangan" id="info-kembalian"></p>
+
+      <button id="btn-reset" class="btn-reset">Transaksi Baru</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Praktikum PAW ITERA - Pertemuan 1 | Syahrul Afwan - 124140096</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
