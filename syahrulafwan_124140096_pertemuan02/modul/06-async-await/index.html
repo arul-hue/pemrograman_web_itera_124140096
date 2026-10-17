@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan 6 - Async Await</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 720px; margin: 20px auto; padding: 0 15px; line-height: 1.5; }
+    pre { background: #eee; padding: 10px; white-space: pre-wrap; min-height: 20px; }
+    hr { margin: 25px 0; }
+    input, select { padding: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Latihan 6: Async / Await</h1>
+  <p>Latihan ini memakai API publik, jadi perlu koneksi internet.</p>
+
+  <h2>Soal 1</h2>
+  <p><i>Buat fungsi yang fetch data dari beberapa endpoint dan gabungkan hasilnya.</i></p>
+  <button onclick="soal1()">Ambil data user 1</button>
+  <pre id="hasil1"></pre>
+
+  <hr>
+
+  <h2>Soal 2</h2>
+  <p><i>Implementasi mekanisme retry dengan exponential backoff.</i></p>
+  <button onclick="soal2()">Jalankan</button>
+  <pre id="hasil2"></pre>
+
+  <hr>
+
+  <h2>Soal 3</h2>
+  <p><i>Buat loading states untuk operasi async di UI.</i></p>
+  <button onclick="soal3(true)">Muat data</button>
+  <button onclick="soal3(false)">Muat data (URL salah)</button>
+  <div id="hasil3"></div>
+
+  <hr>
+
+  <h2>Soal 4</h2>
+  <p><i>Bangun error boundary untuk error async.</i></p>
+  <button onclick="soal4('ok')">API benar</button>
+  <button onclick="soal4('404')">API 404</button>
+  <button onclick="soal4('throw')">Throw error</button>
+  <pre id="hasil4"></pre>
+
+  <hr>
+
+  <h2>Soal 5</h2>
+  <p><i>Implementasi pagination dengan async/await.</i></p>
+  <ul id="hasil5"></ul>
+  <button id="btnPrev" onclick="ganti(-1)">Previous</button>
+  <span id="infoHalaman"></span>
+  <button id="btnNext" onclick="ganti(1)">Next</button>
+
+  <hr>
+
+  <h2>Soal 6</h2>
+  <p><i>Buat debounced search dengan async API calls.</i></p>
+  <input type="text" id="cari" placeholder="cari produk, misal: phone">
+  <p id="info">Ketikan: 0, request: 0</p>
+  <ul id="hasil6"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
