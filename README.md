@@ -7,3 +7,4 @@
 ## Daftar Pages
 
 - [Pertemuan 1](https://arul-hue.github.io/pemrograman_web_itera_124140096/syahrulafwan_124140096_pertemuan01/)
+- [Pertemuan 2](https://arul-hue.github.io/pemrograman_web_itera_124140096/syahrulafwan_124140096_pertemuan02/)
