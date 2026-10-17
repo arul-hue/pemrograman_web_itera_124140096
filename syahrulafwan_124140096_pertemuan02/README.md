@@ -16,21 +16,29 @@ Taskora adalah aplikasi pencatat tugas kuliah untuk kebutuhan mahasiswa sehari-h
 
 ## Fitur Aplikasi
 
-| Kategori | Fitur |
-|---|---|
-| Kelola tugas | Tambah, edit, dan hapus tugas (nama, mata kuliah, tenggat, prioritas) |
-| | Tandai tugas selesai / belum selesai |
-| | Formulir tersembunyi, muncul saat klik **Tambah tugas** atau saat edit, dan menutup lagi setelah disimpan atau dibatalkan |
-| Pencarian | Cari nama tugas, filter mata kuliah, dan filter status |
-| Ringkasan | Jumlah total, belum selesai, dan selesai |
-| | Pengingat tenggat: tugas yang jatuh tempo dalam 3 hari (atau terlambat) tampil di bagian atas |
-| | Jadwal kuliah harian sesuai hari berjalan |
-| Tampilan | Daftar menampilkan 4 tugas pertama, sisanya lewat tombol **Selengkapnya** |
-| | Sidebar tetap (sticky) saat halaman di-scroll |
-| | Responsif untuk desktop dan HP |
-| Penyimpanan | Data tugas disimpan di `localStorage` |
-| Data eksternal | Kutipan harian dari DummyJSON Quotes (ada kutipan cadangan jika API gagal) |
-| | Tombol **Muat contoh dari API** untuk mengambil tugas contoh dari JSONPlaceholder |
+**Kelola tugas**
+- Tambah, edit, dan hapus tugas (nama, mata kuliah, tenggat, prioritas).
+- Tandai tugas selesai atau belum selesai.
+- Formulir tersembunyi, muncul saat klik **Tambah tugas** atau saat edit, dan menutup lagi setelah disimpan atau dibatalkan.
+
+**Pencarian dan filter**
+- Cari nama tugas.
+- Filter berdasarkan mata kuliah dan status.
+
+**Ringkasan**
+- Jumlah total, belum selesai, dan selesai.
+- Pengingat tenggat: tugas yang jatuh tempo dalam 3 hari (atau terlambat) tampil di bagian atas.
+- Jadwal kuliah harian sesuai hari berjalan.
+
+**Tampilan**
+- Daftar menampilkan 4 tugas pertama, sisanya dibuka lewat tombol **Selengkapnya**.
+- Sidebar tetap (sticky) saat halaman di-scroll.
+- Responsif untuk desktop dan HP.
+
+**Data**
+- Data tugas disimpan di `localStorage`, jadi tidak hilang saat halaman dimuat ulang.
+- Kutipan harian dari DummyJSON Quotes (ada kutipan cadangan jika API gagal).
+- Tombol **Muat contoh dari API** untuk mengambil tugas contoh dari JSONPlaceholder.
 
 Filter mata kuliah mengikuti jadwal semester ini: Kapita Selekta, Inteligensi Buatan, Pengembangan Aplikasi Web, Keamanan Siber, Metodologi Penelitian, Jaringan Komputer, Sistem Informasi, dan Pengembangan Aplikasi Mobile. Nama lama "Jarkom" otomatis digabung ke Jaringan Komputer.
 
@@ -38,14 +46,35 @@ Filter mata kuliah mengikuti jadwal semester ini: Kapita Selekta, Inteligensi Bu
 
 Tugas pada screenshot adalah data contoh yang dimasukkan lewat form aplikasi.
 
-| No | Tampilan | Screenshot |
-|---|---|---|
-| 1 | Dashboard | <img src="screenshots/01-dashboard.png" alt="Dashboard" width="520"> |
-| 2 | Daftar tugas dan sidebar yang tetap terlihat saat scroll | <img src="screenshots/02-daftar-tugas-sidebar-sticky.png" alt="Daftar tugas dan sidebar sticky" width="520"> |
-| 3 | Formulir tambah tugas baru | <img src="screenshots/03-tambah-tugas-baru.png" alt="Tambah tugas baru" width="520"> |
-| 4 | Pencarian dan filter tugas | <img src="screenshots/04-pencarian-filter.png" alt="Pencarian dan filter" width="520"> |
-| 5 | Mode edit tugas | <img src="screenshots/05-edit-tugas.png" alt="Edit tugas" width="520"> |
-| 6 | Tampilan mobile | <img src="screenshots/06-tampilan-mobile.png" alt="Tampilan mobile" width="220"> |
+### 1. Dashboard
+<p align="center">
+  <img src="screenshots/01-dashboard.png" alt="Dashboard" width="800">
+</p>
+
+### 2. Daftar tugas dan sidebar yang tetap terlihat saat scroll
+<p align="center">
+  <img src="screenshots/02-daftar-tugas-sidebar-sticky.png" alt="Daftar tugas dan sidebar sticky" width="800">
+</p>
+
+### 3. Formulir tambah tugas baru
+<p align="center">
+  <img src="screenshots/03-tambah-tugas-baru.png" alt="Tambah tugas baru" width="800">
+</p>
+
+### 4. Pencarian dan filter tugas
+<p align="center">
+  <img src="screenshots/04-pencarian-filter.png" alt="Pencarian dan filter" width="800">
+</p>
+
+### 5. Mode edit tugas
+<p align="center">
+  <img src="screenshots/05-edit-tugas.png" alt="Edit tugas" width="800">
+</p>
+
+### 6. Tampilan mobile
+<p align="center">
+  <img src="screenshots/06-tampilan-mobile.png" alt="Tampilan mobile" width="300">
+</p>
 
 ## Fitur ES6+ yang Digunakan
 
