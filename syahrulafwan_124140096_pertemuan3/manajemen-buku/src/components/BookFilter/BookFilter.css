@@ -1,0 +1,9 @@
+.book-filter {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.book-filter input {
+  flex: 1;
+}

@@ -1,0 +1,35 @@
+.book-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.book-title {
+  font-weight: bold;
+}
+
+.book-author {
+  font-size: 14px;
+  color: #555;
+}
+
+.book-status {
+  font-size: 13px;
+  color: #2b5fd9;
+}
+
+.book-buttons button {
+  margin-left: 8px;
+}
+
+.empty-text {
+  color: #666;
+}

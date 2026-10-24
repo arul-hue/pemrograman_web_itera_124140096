@@ -1,0 +1,15 @@
+.stats table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 360px;
+}
+
+.stats td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.stats td:last-child {
+  text-align: right;
+  font-weight: bold;
+}
