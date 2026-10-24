@@ -1,4 +1,4 @@
-# Tugas Pemrograman Web ITERA
+# Tugas Praktikum Pengembangan Aplikasi dan Web
 
 **Nama:** Syahrul Afwan  
 **NIM:** 124140096  
