@@ -1,7 +1,5 @@
 # React Basics
 
-Praktikum Pengembangan Aplikasi Web (PAW) 2026/2027, Teknik Informatika ITERA
-
 | Keterangan | Isi           |
 | ---------- | ------------- |
 | Nama       | Syahrul Afwan |
