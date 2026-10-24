@@ -1,4 +1,4 @@
-# Pertemuan 3 - React Basics
+# React Basics
 
 Praktikum Pengembangan Aplikasi Web (PAW) 2026/2027, Teknik Informatika ITERA
 
