@@ -2,9 +2,11 @@
 
 Praktikum Pengembangan Aplikasi Web (PAW) 2026/2027, Teknik Informatika ITERA
 
-- Nama: Syahrul Afwan
-- NIM: 124140096
-- Kelas: RA
+| Keterangan | Isi           |
+| ---------- | ------------- |
+| Nama       | Syahrul Afwan |
+| NIM        | 124140096     |
+| Kelas      | RA            |
 
 ## Isi Folder
 
