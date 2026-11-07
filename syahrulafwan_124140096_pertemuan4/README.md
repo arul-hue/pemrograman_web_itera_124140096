@@ -44,7 +44,7 @@ Jalankan perintah dari folder yang sama dengan keempat berkas Python.
 `math_operations.py` digunakan melalui `main.py`, sehingga tidak perlu dijalankan sendiri.
 Tidak perlu menjalankan `pip install`.
 
-## Tugas 1 — Penghitung BMI (30%)
+## Tugas 1 — Penghitung BMI
 
 **Alur:** membaca berat (kg) dan tinggi (m) menggunakan `float(input())`,
 memastikan keduanya positif, menghitung BMI, lalu menentukan kategori dengan
@@ -74,7 +74,7 @@ dengan kategori **Berat badan normal**.
 
 ![Hasil eksekusi tugas 1](dokumentasi/soal1_bmi.png)
 
-## Tugas 2 — Pengelolaan Nilai Mahasiswa (40%)
+## Tugas 2 — Pengelolaan Nilai Mahasiswa
 
 **Alur:** membuat list berisi lima dictionary. Setiap dictionary memiliki
 `nama`, `nim`, `nilai_uts`, `nilai_uas`, dan `nilai_tugas`. Perulangan menghitung
@@ -112,7 +112,7 @@ pada list yang memiliki nilai tersebut.
 
 ![Hasil eksekusi tugas 2](dokumentasi/soal2_nilai_mahasiswa.png)
 
-## Tugas 3 — Modul Matematika (30%)
+## Tugas 3 — Modul Matematika
 
 **Alur:** `math_operations.py` menyediakan konstanta `PI = 3.14159`
 dan delapan fungsi. `main.py` memanggil semuanya menggunakan dua contoh input
@@ -154,13 +154,6 @@ batas grade 50, 60, 70, dan 80; hasil perhitungan lima mahasiswa;
 serta hasil fungsi geometri dan konversi suhu. Input BMI nol dan negatif
 juga diperiksa agar tidak terjadi pembagian dengan nol.
 
-## Penempatan di repositori
-
-Gunakan repositori `pemrograman_web_itera_124140096`, kemudian letakkan folder
-`syahrulafwan_124140096_pertemuan4` beserta seluruh isinya di dalam repositori.
-Sertakan folder `dokumentasi` agar gambar README tampil di GitHub.
-Folder `venv/`, `.venv/`, dan `__pycache__/` tidak disertakan.
-
-## Acuan
+## Link Materi Praktikum
 
 [Modul PAW ITERA — Pertemuan 4: Python Dasar](https://praktikum-paw20262027.vercel.app/pertemuan/4#dasar-teori)
