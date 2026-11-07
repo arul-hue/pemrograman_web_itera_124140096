@@ -1,11 +1,10 @@
-# Praktikum PAW — Pertemuan 4: Python Dasar
+# Pertemuan 4: Python Dasar
 
-## Identitas
-
-- Nama: Syahrul Afwan
-- NIM: 124140096
-- Program Studi: Teknik Informatika
-- Institusi: Institut Teknologi Sumatera
+| Keterangan | Isi           |
+| ---------- | ------------- |
+| Nama       | Syahrul Afwan |
+| NIM        | 124140096     |
+| Kelas      | RA            |
 
 ## Deskripsi
 
@@ -16,14 +15,14 @@ Data mahasiswa pada tugas 2 merupakan data contoh, bukan data akademik asli.
 
 ## Isi folder
 
-| Berkas/folder | Kegunaan |
-| --- | --- |
-| `tugas1_bmi.py` | Menghitung BMI dan menentukan kategori berat badan |
-| `tugas2_nilai_mahasiswa.py` | Menghitung nilai akhir, grade, serta nilai tertinggi dan terendah |
-| `math_operations.py` | Modul delapan fungsi geometri dan konversi suhu serta konstanta `PI` |
-| `main.py` | Program pemanggil seluruh fungsi modul matematika |
-| `dokumentasi/` | Screenshot terminal dan salinan teks hasil eksekusi ketiga tugas |
-| `.gitignore` | Mengecualikan lingkungan virtual dan cache Python dari Git |
+| Berkas/folder               | Kegunaan                                                             |
+| --------------------------- | -------------------------------------------------------------------- |
+| `tugas1_bmi.py`             | Menghitung BMI dan menentukan kategori berat badan                   |
+| `tugas2_nilai_mahasiswa.py` | Menghitung nilai akhir, grade, serta nilai tertinggi dan terendah    |
+| `math_operations.py`        | Modul delapan fungsi geometri dan konversi suhu serta konstanta `PI` |
+| `main.py`                   | Program pemanggil seluruh fungsi modul matematika                    |
+| `dokumentasi/`              | Screenshot terminal dan salinan teks hasil eksekusi ketiga tugas     |
+| `.gitignore`                | Mengecualikan lingkungan virtual dan cache Python dari Git           |
 
 ## Cara menjalankan di VS Code
 
@@ -55,12 +54,12 @@ memastikan keduanya positif, menghitung BMI, lalu menentukan kategori dengan
 BMI = berat / (tinggi * tinggi)
 ```
 
-| Nilai BMI | Kategori |
-| --- | --- |
-| BMI < 18.5 | Berat badan kurang |
-| 18.5 ≤ BMI < 25 | Berat badan normal |
-| 25 ≤ BMI < 30 | Berat badan berlebih |
-| BMI ≥ 30 | Obesitas |
+| Nilai BMI       | Kategori             |
+| --------------- | -------------------- |
+| BMI < 18.5      | Berat badan kurang   |
+| 18.5 ≤ BMI < 25 | Berat badan normal   |
+| 25 ≤ BMI < 30   | Berat badan berlebih |
+| BMI ≥ 30        | Obesitas             |
 
 - `hitung_bmi(berat, tinggi)`: mengembalikan hasil rumus BMI.
 - `tentukan_kategori(bmi)`: mengembalikan kategori sesuai batas pada soal.
@@ -87,25 +86,25 @@ nilai untuk mencari mahasiswa dengan nilai tertinggi dan terendah.
 Nilai akhir = (0.30 * UTS) + (0.40 * UAS) + (0.30 * Tugas)
 ```
 
-| Nilai akhir | Grade |
-| --- | --- |
-| ≥ 80 | A |
-| 70 ≤ nilai < 80 | B |
-| 60 ≤ nilai < 70 | C |
-| 50 ≤ nilai < 60 | D |
-| < 50 | E |
+| Nilai akhir     | Grade |
+| --------------- | ----- |
+| ≥ 80            | A     |
+| 70 ≤ nilai < 80 | B     |
+| 60 ≤ nilai < 70 | C     |
+| 50 ≤ nilai < 60 | D     |
+| < 50            | E     |
 
 - `hitung_nilai_akhir(nilai_uts, nilai_uas, nilai_tugas)`: menghitung nilai berbobot.
 - `tentukan_grade(nilai_akhir)`: mengembalikan grade A–E.
 - `main()`: menyiapkan data, menghitung nilai, mencetak tabel, dan mencari ekstrem.
 
-| Nama | NIM contoh | UTS | UAS | Tugas | Nilai akhir | Grade |
-| --- | --- | ---: | ---: | ---: | ---: | :---: |
-| Andi | 124140001 | 85 | 90 | 80 | 85.50 | A |
-| Budi | 124140002 | 70 | 75 | 80 | 75.00 | B |
-| Citra | 124140003 | 65 | 60 | 70 | 64.50 | C |
-| Dewi | 124140004 | 50 | 55 | 60 | 55.00 | D |
-| Eko | 124140005 | 40 | 45 | 50 | 45.00 | E |
+| Nama  | NIM contoh | UTS | UAS | Tugas | Nilai akhir | Grade |
+| ----- | ---------- | --: | --: | ----: | ----------: | :---: |
+| Andi  | 124140001  |  85 |  90 |    80 |       85.50 |   A   |
+| Budi  | 124140002  |  70 |  75 |    80 |       75.00 |   B   |
+| Citra | 124140003  |  65 |  60 |    70 |       64.50 |   C   |
+| Dewi  | 124140004  |  50 |  55 |    60 |       55.00 |   D   |
+| Eko   | 124140005  |  40 |  45 |    50 |       45.00 |   E   |
 
 Nilai tertinggi: **Andi, 85.50 (A)**. Nilai terendah: **Eko, 45.00 (E)**.
 Jika terdapat nilai ekstrem yang sama, program menampilkan mahasiswa pertama
@@ -120,16 +119,16 @@ dan delapan fungsi. `main.py` memanggil semuanya menggunakan dua contoh input
 untuk setiap fungsi, lalu menampilkan hasil dengan dua angka desimal.
 Parameter ukuran bangun menggunakan nilai positif dalam satuan yang sama.
 
-| Fungsi pada modul | Rumus | Input pengujian |
-| --- | --- | --- |
-| `luas_persegi(sisi)` | sisi × sisi | 4 dan 7 |
-| `keliling_persegi(sisi)` | 4 × sisi | 4 dan 7 |
-| `luas_persegi_panjang(panjang, lebar)` | panjang × lebar | (6, 3) dan (10, 5) |
+| Fungsi pada modul                          | Rumus                 | Input pengujian    |
+| ------------------------------------------ | --------------------- | ------------------ |
+| `luas_persegi(sisi)`                       | sisi × sisi           | 4 dan 7            |
+| `keliling_persegi(sisi)`                   | 4 × sisi              | 4 dan 7            |
+| `luas_persegi_panjang(panjang, lebar)`     | panjang × lebar       | (6, 3) dan (10, 5) |
 | `keliling_persegi_panjang(panjang, lebar)` | 2 × (panjang + lebar) | (6, 3) dan (10, 5) |
-| `luas_lingkaran(jari_jari)` | PI × jari_jari² | 7 dan 10 |
-| `keliling_lingkaran(jari_jari)` | 2 × PI × jari_jari | 7 dan 10 |
-| `celsius_ke_fahrenheit(celsius)` | Celsius × 9/5 + 32 | 0 dan 100 |
-| `celsius_ke_kelvin(celsius)` | Celsius + 273.15 | 0 dan 100 |
+| `luas_lingkaran(jari_jari)`                | PI × jari_jari²       | 7 dan 10           |
+| `keliling_lingkaran(jari_jari)`            | 2 × PI × jari_jari    | 7 dan 10           |
+| `celsius_ke_fahrenheit(celsius)`           | Celsius × 9/5 + 32    | 0 dan 100          |
+| `celsius_ke_kelvin(celsius)`               | Celsius + 273.15      | 0 dan 100          |
 
 Dua cara impor di `main.py`:
 

@@ -1,14 +1,14 @@
-# Mini POS - Kasir & Keranjang Belanja Sederhana
+# Pertemuan 1: Mini POS - Kasir & Keranjang Belanja Sederhana
 
 Tugas Praktikum Pengembangan Aplikasi Web (PAW) - Pertemuan 1: JavaScript Dasar
 
 ## Identitas
 
-| | |
-|---|---|
-| **Nama Lengkap** | Syahrul Afwan |
-| **NIM** | 124140096 |
-| **Kelas Praktikum** | RA |
+|                     |               |
+| ------------------- | ------------- |
+| **Nama Lengkap**    | Syahrul Afwan |
+| **NIM**             | 124140096     |
+| **Kelas Praktikum** | RA            |
 
 ## Deskripsi Aplikasi
 
@@ -20,7 +20,7 @@ Tujuan pembuatan aplikasi ini adalah menerapkan materi JavaScript Dasar, yaitu v
 
 1. Download atau clone repository ini.
 2. Buka folder `syahrulafwan_124140096_pertemuan1` di VS Code.
-3. Klik kanan `index.html`, lalu pilih **Open with Live Server** (extension *Live Server* harus terpasang).
+3. Klik kanan `index.html`, lalu pilih **Open with Live Server** (extension _Live Server_ harus terpasang).
 4. Aplikasi terbuka di browser, biasanya di `http://127.0.0.1:5500`.
 
 Alternatif: buka file `index.html` langsung di browser dengan klik dua kali.
@@ -30,6 +30,7 @@ Latihan selama praktikum ada di folder `modul/`. Buka `modul/index.html` untuk m
 ## Daftar Fitur
 
 **Validasi form input barang**
+
 - [x] Nama barang wajib diisi, minimal 3 karakter
 - [x] Harga satuan wajib angka, minimal Rp 500
 - [x] Qty wajib angka bulat, minimal 1
@@ -37,6 +38,7 @@ Latihan selama praktikum ada di folder `modul/`. Buka `modul/index.html` untuk m
 - [x] Form otomatis di-reset jika data valid
 
 **Kalkulator dan perhitungan otomatis**
+
 - [x] Subtotal per barang (harga satuan x qty)
 - [x] Total belanja dari seluruh subtotal
 - [x] Diskon 10% otomatis jika total belanja minimal Rp 50.000
@@ -45,6 +47,7 @@ Latihan selama praktikum ada di folder `modul/`. Buka `modul/index.html` untuk m
 - [x] Keterangan "uang belum mencukupi" jika uang bayar kurang
 
 **Keranjang belanja dan localStorage**
+
 - [x] Tabel keranjang (No, Nama Barang, Harga Satuan, Qty, Subtotal, Aksi)
 - [x] Tombol Hapus di setiap baris, total dan diskon terhitung ulang otomatis
 - [x] Keranjang disimpan ke `localStorage` (`JSON.stringify`) dan dimuat ulang (`JSON.parse`), sehingga tidak hilang saat halaman di-refresh
@@ -72,12 +75,12 @@ Berikut beberapa tampilan aplikasi Mini POS.
 
 ### Struktur File
 
-| File | Fungsi |
-|---|---|
+| File         | Fungsi                                                         |
+| ------------ | -------------------------------------------------------------- |
 | `index.html` | Struktur halaman: form, tabel keranjang, dan bagian pembayaran |
-| `style.css` | Tampilan antarmuka |
-| `script.js` | Seluruh logika aplikasi |
-| `modul/` | Latihan selama praktikum |
+| `style.css`  | Tampilan antarmuka                                             |
+| `script.js`  | Seluruh logika aplikasi                                        |
+| `modul/`     | Latihan selama praktikum                                       |
 
 ### 1. Penanganan validasi input
 

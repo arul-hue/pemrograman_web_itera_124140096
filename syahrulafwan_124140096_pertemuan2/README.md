@@ -1,4 +1,4 @@
-# Taskora — Tracker Tugas Kuliah
+# Pertemuan 2: Taskora — Tracker Tugas Kuliah
 
 Tugas Praktikum Pertemuan 2: **Personal Dashboard** (JavaScript Next Gen / ES6+)
 
