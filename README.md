@@ -4,7 +4,7 @@
 **NIM:** 124140096  
 **Kelas:** RA
 
-Repositori ini berisi tugas praktikum mata kuliah Pengembangan Aplikasi dan Web (PAW) di ITERA. Setiap tugas disimpan dalam folder sesuai pertemuannya.
+Repositori ini berisi tugas praktikum mata kuliah Pengembangan Aplikasi dan Web (PAW). Setiap tugas disimpan dalam folder sesuai pertemuannya.
 
 ## Daftar Pages
 
