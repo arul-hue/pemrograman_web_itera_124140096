@@ -143,17 +143,6 @@ Semua fungsi memiliki docstring yang menjelaskan input dan nilai kembaliannya.
 
 ![Hasil eksekusi tugas 3](dokumentasi/soal3_modul_matematika.png)
 
-## Dokumentasi dan pemeriksaan
-
-Screenshot di atas diambil dari terminal saat program dijalankan.
-Salinan keluaran teks tersedia pada `dokumentasi/tugas1_bmi_output.txt`,
-`dokumentasi/tugas2_nilai_mahasiswa_output.txt`, dan `dokumentasi/main_output.txt`.
-
-Program telah diperiksa untuk batas kategori BMI 18.5, 25, dan 30;
-batas grade 50, 60, 70, dan 80; hasil perhitungan lima mahasiswa;
-serta hasil fungsi geometri dan konversi suhu. Input BMI nol dan negatif
-juga diperiksa agar tidak terjadi pembagian dengan nol.
-
 ## Link Materi Praktikum
 
 [Modul PAW ITERA — Pertemuan 4: Python Dasar](https://praktikum-paw20262027.vercel.app/pertemuan/4#dasar-teori)
