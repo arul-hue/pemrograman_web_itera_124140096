@@ -1,8 +1,10 @@
-# Praktikum PAW Pertemuan 5 – Python OOP
+# Pertemuan 5: Python OOP
 
-**Nama:** Syahrul Afwan  
-**NIM:** 124140096  
-**Kelas:** RA
+| Keterangan | Isi           |
+| ---------- | ------------- |
+| Nama       | Syahrul Afwan |
+| NIM        | 124140096     |
+| Kelas      | RA            |
 
 ## Isi folder
 
@@ -14,12 +16,12 @@
 
 Program menambah buku dan majalah, menampilkan katalog yang tersedia, dan mencari item berdasarkan ID atau bagian judul. Demo juga memperlihatkan bahwa buku yang dipinjam tidak tampil di katalog tersedia.
 
-| Konsep | Penerapan |
-| --- | --- |
-| Class dan object | `Library` mengelola koleksi objek `Book` dan `Magazine`. |
-| Abstraction dan inheritance | `LibraryItem` menetapkan kontrak `get_detail()`. `Book` dan `Magazine` mewarisi atribut dan pengelolaan status pinjam. |
-| Encapsulation | `Library` menyimpan `__koleksi` secara internal. Status pinjam dibaca melalui `@property is_dipinjam` dan diubah lewat method. |
-| Polymorphism | Katalog dan hasil pencarian memanggil `get_detail()` pada tiap item. Buku menampilkan penulis, sedangkan majalah menampilkan edisi. |
+| Konsep                      | Penerapan                                                                                                                           |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Class dan object            | `Library` mengelola koleksi objek `Book` dan `Magazine`.                                                                            |
+| Abstraction dan inheritance | `LibraryItem` menetapkan kontrak `get_detail()`. `Book` dan `Magazine` mewarisi atribut dan pengelolaan status pinjam.              |
+| Encapsulation               | `Library` menyimpan `__koleksi` secara internal. Status pinjam dibaca melalui `@property is_dipinjam` dan diubah lewat method.      |
+| Polymorphism                | Katalog dan hasil pencarian memanggil `get_detail()` pada tiap item. Buku menampilkan penulis, sedangkan majalah menampilkan edisi. |
 
 ## Cara menjalankan
 
